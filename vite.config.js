@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // GitHub Pages publishes this repository under /FinCorp/
+  base: '/FinCorp/',
   plugins: [react()],
   server: {
     port: 3000,
